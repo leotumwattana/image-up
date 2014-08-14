@@ -1,0 +1,11 @@
+<template name="home">
+  <div class="home">
+    <img src="{{profileImageUrl}}" alt="">
+    <form action="#" id="dropzone" class="dropzone"></form>
+    {{#each images }}
+      <div class="image">
+        <img src="{{ this.url }}" alt="">
+      </div>
+    {{/each }}
+  </div>
+</template>
